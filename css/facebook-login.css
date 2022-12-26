@@ -122,8 +122,8 @@ section {
 	border-radius: 8px;
 	background-color: white;
 	padding: 20px;
-	/* height: 456px; */
 	width: 396px;
+	box-shadow: 0 0 5px 5px #0001;
 }
 
 input {
