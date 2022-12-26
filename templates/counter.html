@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="../fonts/mdi/css/materialdesignicons.min.css"
+		/>
+		<link rel="stylesheet" href="../css/counter.css" />
+		<title>Counter</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="box">
+				<ul>
+					<li>Prix unitaire: <span class="big">$ 100</span></li>
+					<li>Quantité: <span id="quantity">0</span></li>
+					<li>Prix total: <span id="total">$ 0</span></li>
+				</ul>
+
+				<div class="content">
+					<div class="controler">
+						<div>
+							<button id="decrement">
+								<i class="mdi mdi-minus"></i>
+							</button>
+						</div>
+						<h2 id="input">0</h2>
+						<div>
+							<button id="increment">
+								<i class="mdi mdi-plus"></i>
+							</button>
+						</div>
+					</div>
+					<div class="btn-group">
+						<button class="danger" id="reset">Reset</button>
+						<button class="success" id="submit">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../js/counter.js" defer></script>
+	</body>
+</html>
